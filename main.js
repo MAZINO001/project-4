@@ -34,7 +34,7 @@ listContainer.addEventListener(
   false
 );
 
-//storethe tasks everwhen we reload the page
+//store the tasks everwhen we reload the page
 
 function saveData() {
   localStorage.setItem("data", listContainer.innerHTML);
